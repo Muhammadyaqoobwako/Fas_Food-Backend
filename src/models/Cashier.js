@@ -17,8 +17,8 @@ const CashierSchema = new mongoose.Schema(
     },
     role: {
       type: String,
-      enum: ['cashier', 'waiter', 'admin'],
-      default: 'cashier'
+      enum: ['cashier', 'waiter', 'admin', 'customer'],
+      default: 'customer'
     }
   },
   { timestamps: true }
