@@ -1,4 +1,12 @@
 require('dotenv').config();
+const mongoose = require('mongoose');
+
+// If using mock database, apply override synchronously before requiring other files
+if (process.env.USE_MOCK_DB === 'true' || !process.env.MONGODB_URI) {
+  const mockMongoose = require('./config/mongoose-mock');
+  mockMongoose.applyOverride(mongoose);
+}
+
 const connectDB = require('./config/db');
 const app = require('./app');
 
