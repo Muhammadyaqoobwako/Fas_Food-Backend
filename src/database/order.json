@@ -66,5 +66,35 @@
     "totalAmount": 13.5,
     "createdAt": "2026-06-19T20:44:43.062Z",
     "updatedAt": "2026-06-19T20:44:43.062Z"
+  },
+  {
+    "category": "Burger",
+    "items": [
+      {
+        "description": "Cheese Burger",
+        "quantity": 1,
+        "unitPrice": 9.5
+      }
+    ],
+    "cashier": "testuser",
+    "_id": "rwf4zn3mqnxij6e",
+    "totalAmount": 9.5,
+    "createdAt": "2026-06-21T15:16:04.887Z",
+    "updatedAt": "2026-06-21T15:16:04.887Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Regular Chips",
+        "quantity": 1,
+        "unitPrice": 4
+      }
+    ],
+    "cashier": "testuser",
+    "_id": "w36vxndmqnxinsu",
+    "totalAmount": 4,
+    "createdAt": "2026-06-21T15:16:10.878Z",
+    "updatedAt": "2026-06-21T15:16:10.878Z"
   }
 ]

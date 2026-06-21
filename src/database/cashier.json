@@ -14,5 +14,53 @@
     "_id": "6a35a83c26e44138477ad36f",
     "createdAt": "2026-06-19T20:36:12.879Z",
     "updatedAt": "2026-06-19T20:36:12.879Z"
+  },
+  {
+    "username": "testuser",
+    "password": "$2b$12$oiBATbEu66Mqu7M0lGnLOeyrraKYmRVyTKcWi/wVSGKpFLwY8Yhrq",
+    "role": "customer",
+    "_id": "wtvfr7pmqnxazjd",
+    "createdAt": "2026-06-21T15:10:13.518Z",
+    "updatedAt": "2026-06-21T15:10:13.518Z"
+  },
+  {
+    "username": "testuser11",
+    "password": "$2b$12$AkXDTiTGYQ54DxNBBwgO8OrLOZBaGxIH8Xcyf866y9BDZC.dstTz2",
+    "role": "cashier",
+    "_id": "15ny4wsmqnxjb96",
+    "createdAt": "2026-06-21T15:16:41.952Z",
+    "updatedAt": "2026-06-21T15:16:41.952Z"
+  },
+  {
+    "username": "testuser111",
+    "password": "$2b$12$7Dr6g4/eATzrkPcuPnF7h.LEKPp4mtZdy9p/UHSLlp3XRzK/9qiQW",
+    "role": "admin",
+    "_id": "2o2x8rymqnxk58w",
+    "createdAt": "2026-06-21T15:17:20.728Z",
+    "updatedAt": "2026-06-21T15:17:20.728Z"
+  },
+  {
+    "username": "adminuser",
+    "password": "$2b$12$Ao1UHmp1doYJLwGwMpPur.i8re0f./o1/G3tNPP/U.hriSlcbhR0K",
+    "role": "admin",
+    "_id": "rs9kfohmqnxqsgr",
+    "createdAt": "2026-06-21T15:22:30.661Z",
+    "updatedAt": "2026-06-21T15:22:30.661Z"
+  },
+  {
+    "username": "admin2",
+    "password": "$2b$12$1EnED7JZ73PIFhneIAjLn.hQdFvsIaxijinQpiRRaQ9kg.cEeuhhW",
+    "role": "admin",
+    "_id": "9onc16gmqny9fwj",
+    "createdAt": "2026-06-21T15:37:00.976Z",
+    "updatedAt": "2026-06-21T15:37:00.976Z"
+  },
+  {
+    "username": "testuser1",
+    "password": "$2b$12$uDSIA0Sjse9E57hp4udLZutRDEy/f8c86HIgBSOlOp3QQssa82WFm",
+    "role": "admin",
+    "_id": "i6z5mffmqnz1opq",
+    "createdAt": "2026-06-21T15:58:58.794Z",
+    "updatedAt": "2026-06-21T15:58:58.794Z"
   }
 ]

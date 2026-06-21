@@ -157,5 +157,32 @@
     "_id": "6a35aa3fae820f6cae2646cf",
     "createdAt": "2026-06-19T20:44:47.142Z",
     "updatedAt": "2026-06-19T20:44:47.142Z"
+  },
+  {
+    "name": "Test Item",
+    "category": "Pizza",
+    "price": 10,
+    "description": "Test Description",
+    "_id": "iss6o8qmqny2b8d",
+    "createdAt": "2026-06-21T15:31:27.709Z",
+    "updatedAt": "2026-06-21T15:31:27.709Z"
+  },
+  {
+    "name": "Delete Me Pizza",
+    "category": "Pizza",
+    "price": 15,
+    "description": "Test delete",
+    "_id": "5wtnvhrmqnyc7zh",
+    "createdAt": "2026-06-21T15:39:10.061Z",
+    "updatedAt": "2026-06-21T15:39:10.061Z"
+  },
+  {
+    "name": "XSS test",
+    "category": "Pizza",
+    "price": 1,
+    "description": "<img src=x onerror=\"window.confirm=()=>true;console.log('XSS success');\">",
+    "_id": "17c383tmqnygvx8",
+    "createdAt": "2026-06-21T15:42:47.708Z",
+    "updatedAt": "2026-06-21T15:42:47.708Z"
   }
 ]

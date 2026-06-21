@@ -17,9 +17,13 @@ const MenuItemSchema = new mongoose.Schema(
       required: true,
       min: 0
     },
+    description: {
+      type: String,
+      default: ''
+    },
     sizeOrWeight: {
       type: String,
-      required: true
+      default: ''
     },
     options: {
       type: [String],
@@ -28,6 +32,10 @@ const MenuItemSchema = new mongoose.Schema(
     isAvailable: {
       type: Boolean,
       default: true
+    },
+    imageUrl: {
+      type: String,
+      default: ''
     }
   },
   { timestamps: true }

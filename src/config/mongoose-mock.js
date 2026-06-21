@@ -309,50 +309,9 @@ function applyOverride(mongooseInstance) {
     };
   });
 
-  const overrideModelSave = (modelClass) => {
-    modelClass.prototype.save = async function() {
-      const modelName = this.constructor.modelName;
-      const MockModelClass = createModel(modelName, this.schema);
-      
-      // Convert document to regular object
-      const docObj = this.toObject ? this.toObject() : JSON.parse(JSON.stringify(this));
-      const mockInst = new MockModelClass(docObj);
-      const saved = await mockInst.save();
-      
-      // Copy generated fields back
-      Object.assign(this, saved);
-      return this;
-    };
-  };
-
-  // Override Model instance save method
-  mongooseInstance.Model.prototype.save = async function() {
-    const modelName = this.constructor.modelName;
-    const MockModelClass = createModel(modelName, this.schema);
-    
-    // Convert document to regular object
-    const docObj = this.toObject ? this.toObject() : JSON.parse(JSON.stringify(this));
-    const mockInst = new MockModelClass(docObj);
-    const saved = await mockInst.save();
-    
-    // Copy generated fields back
-    Object.assign(this, saved);
-    return this;
-  };
-
-  // Apply override to all currently registered models
-  const modelNames = mongooseInstance.modelNames ? mongooseInstance.modelNames() : [];
-  modelNames.forEach(name => {
-    const model = mongooseInstance.model(name);
-    overrideModelSave(model);
-  });
-
-  // Intercept future model definitions
-  const originalModel = mongooseInstance.model.bind(mongooseInstance);
+  // Override model compilation to return clean mock model class directly
   mongooseInstance.model = function(name, schema, collection) {
-    const model = originalModel(name, schema, collection);
-    overrideModelSave(model);
-    return model;
+    return createModel(name, schema);
   };
 }
 
