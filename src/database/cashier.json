@@ -1,0 +1,18 @@
+[
+  {
+    "username": "dorry",
+    "password": "$2a$12$WUVCz5M2emChRzWEIFb7de257sjjujwGKGmdueI3Fnu7Yg/.Wlkja",
+    "role": "cashier",
+    "_id": "6a35a83a26e44138477ad36e",
+    "createdAt": "2026-06-19T20:36:10.968Z",
+    "updatedAt": "2026-06-19T20:36:10.968Z"
+  },
+  {
+    "username": "timmo",
+    "password": "$2a$12$EOw9bAgU8gStjioUrr3jqezSD/m6Agy.aVjGAViM8kzt2uSiT6hV.",
+    "role": "cashier",
+    "_id": "6a35a83c26e44138477ad36f",
+    "createdAt": "2026-06-19T20:36:12.879Z",
+    "updatedAt": "2026-06-19T20:36:12.879Z"
+  }
+]

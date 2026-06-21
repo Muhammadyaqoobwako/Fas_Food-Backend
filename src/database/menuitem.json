@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Sprite Classic",
+    "price": 3.5,
+    "sizeOrWeight": "300ml",
+    "category": "Sprite",
+    "options": [
+      "Cold",
+      "Regular"
+    ],
+    "_id": "cqonszumqldq1q6"
+  },
+  {
+    "name": "Sprite Zero",
+    "price": 3.8,
+    "sizeOrWeight": "300ml",
+    "category": "Sprite",
+    "options": [
+      "Cold",
+      "Diet"
+    ],
+    "_id": "8c0lrh3mqldq1q6"
+  },
+  {
+    "name": "Sprite Duo",
+    "price": 4,
+    "sizeOrWeight": "300ml",
+    "category": "Sprite",
+    "options": [
+      "Cold"
+    ],
+    "_id": "rbh53pamqldq1q6"
+  },
+  {
+    "name": "Coke Classic",
+    "price": 3.5,
+    "sizeOrWeight": "330ml",
+    "category": "Coke",
+    "options": [
+      "Cold",
+      "Regular"
+    ],
+    "_id": "lw2ofegmqldq1q6"
+  },
+  {
+    "name": "Coke Zero",
+    "price": 3.8,
+    "sizeOrWeight": "330ml",
+    "category": "Coke",
+    "options": [
+      "Cold",
+      "Diet"
+    ],
+    "_id": "8ktkhpemqldq1q6"
+  },
+  {
+    "name": "Diet Coke",
+    "price": 3.5,
+    "sizeOrWeight": "330ml",
+    "category": "Coke",
+    "options": [
+      "Cold",
+      "Diet"
+    ],
+    "_id": "mzs3ztamqldq1q6"
+  },
+  {
+    "name": "Cheese Burger",
+    "price": 9.5,
+    "sizeOrWeight": "180g",
+    "category": "Burger",
+    "options": [
+      "Beef",
+      "Chicken",
+      "Extra Cheese"
+    ],
+    "_id": "lfq6v96mqldq1q6"
+  },
+  {
+    "name": "Margherita Pizza",
+    "price": 11,
+    "sizeOrWeight": "Standard",
+    "category": "Pizza",
+    "options": [
+      "Thin Crust",
+      "Thick Crust"
+    ],
+    "_id": "y7z537amqldq1q6"
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "price": 13.5,
+    "sizeOrWeight": "Standard",
+    "category": "Pizza",
+    "options": [
+      "Thin Crust",
+      "Thick Crust"
+    ],
+    "_id": "gitl3asmqldq1q6"
+  },
+  {
+    "name": "Regina Pizza",
+    "price": 14,
+    "sizeOrWeight": "Standard",
+    "category": "Pizza",
+    "options": [
+      "Thin Crust",
+      "Thick Crust"
+    ],
+    "_id": "tzb5x8fmqldq1q6"
+  },
+  {
+    "name": "Standard Scoop Ice Cream",
+    "price": 4.5,
+    "sizeOrWeight": "1 Scoop",
+    "category": "IceCream",
+    "options": [
+      "Vanilla",
+      "Chocolate",
+      "Strawberry"
+    ],
+    "_id": "yd9gt3dmqldq1q6"
+  },
+  {
+    "name": "Regular Chips",
+    "price": 4,
+    "sizeOrWeight": "150g",
+    "category": "Chips",
+    "options": [
+      "Salted",
+      "Vinegar"
+    ],
+    "_id": "bwlqztlmqldq1q7"
+  },
+  {
+    "name": "Large Chips",
+    "price": 5.5,
+    "sizeOrWeight": "300g",
+    "category": "Chips",
+    "options": [
+      "Salted",
+      "Vinegar",
+      "Tomato Sauce"
+    ],
+    "_id": "b6oj74gmqldq1q7"
+  },
+  {
+    "category": "Pizza",
+    "name": "Playwright Pizza",
+    "price": 12.99,
+    "sizeOrWeight": "Large size",
+    "options": [
+      "Extra Pepperoni",
+      "Extra Cheese"
+    ],
+    "isAvailable": true,
+    "_id": "6a35aa3fae820f6cae2646cf",
+    "createdAt": "2026-06-19T20:44:47.142Z",
+    "updatedAt": "2026-06-19T20:44:47.142Z"
+  }
+]
