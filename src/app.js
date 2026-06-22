@@ -17,6 +17,21 @@ app.use('/api/auth', authRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/menu', menuItemRoutes);
 
+// Welcome / root route
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Welcome to the Fas_Food API Backend!",
+    version: "1.0.0",
+    endpoints: {
+      status: "/api/status",
+      auth: "/api/auth",
+      orders: "/api/orders",
+      menu: "/api/menu"
+    }
+  });
+});
+
 // Health check endpoint
 app.get('/api/status', (req, res) => {
   res.status(200).json({
