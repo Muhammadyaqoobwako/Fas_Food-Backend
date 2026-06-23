@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const Cashier = require('../models/Cashier');
 
 class AuthService {
-  async register({ username, password, role }) {
+  async register({ username, password, role, restaurantName }) {
     const existing = await Cashier.findOne({ username: username.toLowerCase() });
     if (existing) {
       throw new Error('Username already exists.');
@@ -11,13 +11,15 @@ class AuthService {
     const cashier = new Cashier({
       username,
       password,
-      role
+      role,
+      restaurantName
     });
 
     await cashier.save();
     return {
       username: cashier.username,
-      role: cashier.role
+      role: cashier.role,
+      restaurantName: cashier.restaurantName || ''
     };
   }
 
@@ -33,7 +35,7 @@ class AuthService {
     }
 
     const token = jwt.sign(
-      { id: cashier._id, username: cashier.username, role: cashier.role },
+      { id: cashier._id, username: cashier.username, role: cashier.role, restaurantName: cashier.restaurantName || '' },
       process.env.JWT_SECRET || 'fallback_secret_123',
       { expiresIn: '2h' }
     );
@@ -42,7 +44,8 @@ class AuthService {
       token,
       cashier: {
         username: cashier.username,
-        role: cashier.role
+        role: cashier.role,
+        restaurantName: cashier.restaurantName || ''
       }
     };
   }

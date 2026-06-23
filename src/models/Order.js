@@ -31,6 +31,20 @@ const OrderSchema = new mongoose.Schema(
       required: true,
       index: true
     },
+    status: {
+      type: String,
+      enum: ['pending', 'preparing', 'ready', 'picked_up', 'on_the_way', 'delivered', 'completed'],
+      default: 'pending'
+    },
+    customerName: {
+      type: String
+    },
+    deliveryAddress: {
+      type: String
+    },
+    assignedDriver: {
+      type: String
+    },
     offlineCreatedAt: {
       type: Date
     }

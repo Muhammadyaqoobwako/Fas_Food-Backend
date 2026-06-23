@@ -3,14 +3,18 @@ const OrderService = require('../services/OrderService');
 class OrderController {
   async placeOrder(req, res, next) {
     try {
-      const { category, items, offlineCreatedAt } = req.body;
+      const { category, items, offlineCreatedAt, customerName, deliveryAddress, status, assignedDriver } = req.body;
       const cashier = req.cashier.username; // Taken from decrypted JWT token session context
 
       const order = await OrderService.placeOrder({
         category,
         items,
         cashier,
-        offlineCreatedAt
+        offlineCreatedAt,
+        customerName,
+        deliveryAddress,
+        status,
+        assignedDriver
       });
 
       res.status(201).json({
@@ -77,6 +81,20 @@ class OrderController {
       res.status(200).json({
         success: true,
         data: summary
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  async updateOrder(req, res, next) {
+    try {
+      const { id } = req.params;
+      const order = await OrderService.updateOrder(id, req.body);
+      res.status(200).json({
+        success: true,
+        message: 'Order updated successfully.',
+        data: order
       });
     } catch (err) {
       next(err);

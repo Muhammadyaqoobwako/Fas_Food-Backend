@@ -1,12 +1,16 @@
 const Order = require('../models/Order');
 
 class OrderService {
-  async placeOrder({ category, items, cashier, offlineCreatedAt }) {
+  async placeOrder({ category, items, cashier, offlineCreatedAt, customerName, deliveryAddress, status, assignedDriver }) {
     const order = new Order({
       category,
       items,
       cashier,
-      offlineCreatedAt
+      offlineCreatedAt,
+      customerName,
+      deliveryAddress,
+      status: status || 'pending',
+      assignedDriver
     });
 
     await order.save();
@@ -46,7 +50,11 @@ class OrderService {
           }
         ],
         cashier: orderData.cashierName || 'anonymous',
-        offlineCreatedAt: orderData.offlineCreatedAt
+        offlineCreatedAt: orderData.offlineCreatedAt,
+        status: orderData.status || 'pending',
+        customerName: orderData.customerName,
+        deliveryAddress: orderData.deliveryAddress,
+        assignedDriver: orderData.assignedDriver
       });
       await order.save();
       savedOrders.push(order);
@@ -87,6 +95,13 @@ class OrderService {
       totalOrders,
       salesByCategory
     };
+  }
+  async updateOrder(id, data) {
+    const order = await Order.findByIdAndUpdate(id, data, { new: true });
+    if (!order) {
+      throw new Error('Order not found');
+    }
+    return order;
   }
 }
 

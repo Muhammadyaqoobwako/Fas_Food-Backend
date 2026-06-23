@@ -24,3 +24,5 @@ connectDB().then(() => {
     console.log(`Modern API Server listening on port ${PORT} (Database Offline)`);
   });
 });
+
+module.exports = app;

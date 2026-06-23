@@ -8,6 +8,14 @@
     "updatedAt": "2026-06-19T20:36:10.968Z"
   },
   {
+    "username": "admin",
+    "password": "$2a$12$WUVCz5M2emChRzWEIFb7de257sjjujwGKGmdueI3Fnu7Yg/.Wlkja",
+    "role": "admin",
+    "_id": "admin_mock_id_999",
+    "createdAt": "2026-06-22T20:36:10.968Z",
+    "updatedAt": "2026-06-22T20:36:10.968Z"
+  },
+  {
     "username": "timmo",
     "password": "$2a$12$EOw9bAgU8gStjioUrr3jqezSD/m6Agy.aVjGAViM8kzt2uSiT6hV.",
     "role": "cashier",

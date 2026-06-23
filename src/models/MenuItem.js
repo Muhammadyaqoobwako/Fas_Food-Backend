@@ -36,6 +36,10 @@ const MenuItemSchema = new mongoose.Schema(
     imageUrl: {
       type: String,
       default: ''
+    },
+    restaurantName: {
+      type: String,
+      default: 'Fas Food Palace'
     }
   },
   { timestamps: true }

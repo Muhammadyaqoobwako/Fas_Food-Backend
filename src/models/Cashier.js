@@ -17,8 +17,12 @@ const CashierSchema = new mongoose.Schema(
     },
     role: {
       type: String,
-      enum: ['cashier', 'waiter', 'admin', 'customer'],
+      enum: ['cashier', 'waiter', 'admin', 'customer', 'owner', 'driver', 'manager'],
       default: 'customer'
+    },
+    restaurantName: {
+      type: String,
+      default: ''
     }
   },
   { timestamps: true }

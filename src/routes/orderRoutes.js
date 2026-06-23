@@ -9,6 +9,7 @@ router.use(authMiddleware);
 
 router.post('/', validateOrder, OrderController.placeOrder);
 router.get('/', OrderController.getAllOrders);
+router.put('/:id', OrderController.updateOrder);
 router.delete('/:id', OrderController.deleteOrder);
 router.post('/sync', OrderController.syncOfflineOrders);
 router.get('/reports/sales', OrderController.getSalesSummary);
