@@ -18,11 +18,19 @@ class AuthService {
     });
 
     await cashier.save();
+    const token = jwt.sign(
+      { id: cashier._id, username: cashier.username, role: cashier.role, restaurantName: cashier.restaurantName || '', email: cashier.email || '' },
+      process.env.JWT_SECRET || 'fallback_secret_123',
+      { expiresIn: '2h' }
+    );
     return {
-      username: cashier.username,
-      role: cashier.role,
-      restaurantName: cashier.restaurantName || '',
-      email: cashier.email || ''
+      token,
+      cashier: {
+        username: cashier.username,
+        role: cashier.role,
+        restaurantName: cashier.restaurantName || '',
+        email: cashier.email || ''
+      }
     };
   }
 
