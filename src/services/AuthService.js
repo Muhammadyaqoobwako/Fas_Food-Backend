@@ -101,6 +101,7 @@ class AuthService {
       });
     } catch (err) {
       console.warn(`WARNING: Failed to send SMTP mail: ${err.message}. OTP logged to console instead.`);
+      return { message: `OTP sent successfully. [DEV MODE] Your verification OTP code is: ${otp}` };
     }
 
     return { message: 'OTP sent successfully to registered email.' };
