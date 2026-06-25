@@ -23,6 +23,17 @@ const CashierSchema = new mongoose.Schema(
     restaurantName: {
       type: String,
       default: ''
+    },
+    email: {
+      type: String,
+      lowercase: true,
+      trim: true
+    },
+    resetOtp: {
+      type: String
+    },
+    resetOtpExpires: {
+      type: Date
     }
   },
   { timestamps: true }

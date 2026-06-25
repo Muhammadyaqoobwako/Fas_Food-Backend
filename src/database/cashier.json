@@ -78,5 +78,73 @@
     "_id": "1cknr7zmqo51gyq",
     "createdAt": "2026-06-21T18:46:46.187Z",
     "updatedAt": "2026-06-21T18:46:46.187Z"
+  },
+  {
+    "username": "cashier_1782368689469",
+    "password": "$2b$12$YOe6CAvpZkq.wyUBNP0CPeNPCfrKYI22TvlSZFkyxdG9Y.aEoTl3S",
+    "role": "cashier",
+    "_id": "qka4xtomqt4av4i",
+    "createdAt": "2026-06-25T06:24:55.841Z",
+    "updatedAt": "2026-06-25T06:24:55.841Z"
+  },
+  {
+    "username": "cashier_1782368980315",
+    "password": "$2b$12$NNQ7vu6VFk9U1QKtsr7bjOCphmZoVTA89/2i78grxXpp8e7mdkhkK",
+    "role": "cashier",
+    "_id": "fwedne8mqt4h02n",
+    "createdAt": "2026-06-25T06:29:42.024Z",
+    "updatedAt": "2026-06-25T06:29:42.024Z"
+  },
+  {
+    "username": "cashier_1782369096431",
+    "password": "$2b$12$3LbjC6Oq3zS1kUIU1Bmjg.gsyL4IslZA3Sm9rr6xhKeqORMfUVM4m",
+    "role": "cashier",
+    "_id": "kwccst1mqt4jhrj",
+    "createdAt": "2026-06-25T06:31:38.211Z",
+    "updatedAt": "2026-06-25T06:31:38.211Z"
+  },
+  {
+    "username": "cashier_1782369130514",
+    "password": "$2b$12$bcGOh7OyofjzWPtIdlaIZeQwFAxKuTaAZHUGzSLlbRnuh7ujsCkEa",
+    "role": "cashier",
+    "_id": "4lsaxsumqt4k83e",
+    "createdAt": "2026-06-25T06:32:12.361Z",
+    "updatedAt": "2026-06-25T06:32:12.361Z"
+  },
+  {
+    "username": "pom_cashier_1782371570921",
+    "password": "$2b$12$XDut9UpfExtb6N/A.oTKFetC8HP8ka6ybIunocZPAplBThX8klKzy",
+    "role": "cashier",
+    "_id": "t2k434bmqt60jem",
+    "createdAt": "2026-06-25T07:12:53.210Z",
+    "updatedAt": "2026-06-25T07:12:53.210Z"
+  },
+  {
+    "username": "testuser_124",
+    "password": "$2b$12$10YyEIvmAInnHQbYjTg4qehdDGsrJsp1pKMwWSQ/sUdH3QcxRr112",
+    "role": "customer",
+    "_id": "c8l7y4umqt74luq",
+    "createdAt": "2026-06-25T07:44:02.577Z",
+    "updatedAt": "2026-06-25T07:44:02.577Z"
+  },
+  {
+    "username": "testuser_197",
+    "password": "$2b$12$w5TIw.uVf9BNjBH8GbR08O8UhfhcAgYZilJK44kzu31ESOGfvhvlq",
+    "role": "customer",
+    "email": "testuser_197@gmail.com",
+    "_id": "7jfkfqumqt763t1",
+    "createdAt": "2026-06-25T07:45:13.080Z",
+    "updatedAt": "2026-06-25T07:45:13.725Z",
+    "resetOtp": "350381",
+    "resetOtpExpires": 1782374113121
+  },
+  {
+    "username": "testuser_554",
+    "password": "$2b$12$0EvxB/wiGNECq25U2R/8xOEuBcfGNmC31PYTyG1AuvB.vTMVQjT9S",
+    "role": "customer",
+    "email": "testuser_554@gmail.com",
+    "_id": "ji9eunrmqt76njv",
+    "createdAt": "2026-06-25T07:45:38.178Z",
+    "updatedAt": "2026-06-25T07:45:40.165Z"
   }
 ]

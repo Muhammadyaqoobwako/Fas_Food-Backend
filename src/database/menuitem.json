@@ -184,5 +184,37 @@
     "_id": "17c383tmqnygvx8",
     "createdAt": "2026-06-21T15:42:47.708Z",
     "updatedAt": "2026-06-21T15:42:47.708Z"
+  },
+  {
+    "name": "Gourmet Chicken Burger",
+    "category": "Burger",
+    "price": 9.5,
+    "description": "Crispy breast fillet with special sauce",
+    "_id": "5l2lge3mqt4b0q8",
+    "createdAt": "2026-06-25T06:25:02.576Z",
+    "updatedAt": "2026-06-25T06:25:02.576Z"
+  },
+  {
+    "category": "Burger",
+    "description": "No name burger",
+    "_id": "vmc4fommqt4b0sv",
+    "createdAt": "2026-06-25T06:25:02.671Z",
+    "updatedAt": "2026-06-25T06:25:02.671Z"
+  },
+  {
+    "name": "Gourmet Chicken Burger",
+    "category": "Burger",
+    "price": 9.5,
+    "description": "Crispy breast fillet with special sauce",
+    "_id": "jrlj3bgmqt4h1j3",
+    "createdAt": "2026-06-25T06:29:43.551Z",
+    "updatedAt": "2026-06-25T06:29:43.551Z"
+  },
+  {
+    "category": "Burger",
+    "description": "No name burger",
+    "_id": "hjpdhcjmqt4h1kl",
+    "createdAt": "2026-06-25T06:29:43.605Z",
+    "updatedAt": "2026-06-25T06:29:43.605Z"
   }
 ]

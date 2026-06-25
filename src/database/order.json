@@ -96,5 +96,141 @@
     "totalAmount": 4,
     "createdAt": "2026-06-21T15:16:10.878Z",
     "updatedAt": "2026-06-21T15:16:10.878Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "jas8n9rmqs9s39h",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-24T16:10:30.919Z",
+    "updatedAt": "2026-06-24T16:10:30.919Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "7santkamqs9sxof",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-24T16:11:10.335Z",
+    "updatedAt": "2026-06-24T16:11:10.335Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "5g3mkctmqs9uh12",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-24T16:12:22.070Z",
+    "updatedAt": "2026-06-24T16:12:22.070Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "wq6ddaxmqs9vonr",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-24T16:13:18.616Z",
+    "updatedAt": "2026-06-24T16:13:18.616Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "vm64byamqs9x2c8",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-24T16:14:23.000Z",
+    "updatedAt": "2026-06-24T16:14:23.000Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "4p88ecemqs9y8pf",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-24T16:15:17.907Z",
+    "updatedAt": "2026-06-24T16:15:17.907Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "6cuixtkmqt4auq2",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-25T06:24:54.797Z",
+    "updatedAt": "2026-06-25T06:24:54.797Z"
+  },
+  {
+    "category": "Chips",
+    "items": [
+      {
+        "description": "Large Salted Chips",
+        "quantity": 3,
+        "unitPrice": 4.5,
+        "servedWith": "Tomato Sauce"
+      }
+    ],
+    "cashier": "dorry",
+    "status": "pending",
+    "_id": "ch5yol8mqt4h009",
+    "totalAmount": 13.5,
+    "createdAt": "2026-06-25T06:29:41.578Z",
+    "updatedAt": "2026-06-25T06:29:41.578Z"
   }
 ]
